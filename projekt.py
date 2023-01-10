@@ -15,6 +15,9 @@ dot = graphviz.Digraph(comment="projekt")
 # dot.edge('db3', 'db4', label='a')
 # dot.edge('db0', 'db0', label='a,b')
 
+# Skonstruować automat skończony deterministyczny akceptujący liczby 
+# naturalne podzielne przez 3
+
 dot.node('q0', 'q0', shape = 'doublecircle')
 dot.node('q2', 'q2', shape = 'circle')
 dot.node('q1', 'q1', shape = 'circle')
