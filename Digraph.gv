@@ -1,0 +1,13 @@
+// projekt
+digraph {
+	db0 [label=q0 shape=circle]
+	db1 [label=q1 shape=circle]
+	db2 [label=q2 shape=circle]
+	db3 [label=q3 shape=circle]
+	db4 [label=q4 shape=doublecircle]
+	db0 -> db1 [label=b]
+	db1 -> db2 [label=b]
+	db2 -> db3 [label=a]
+	db3 -> db4 [label=a]
+	db0 -> db0 [label="a,b"]
+}
