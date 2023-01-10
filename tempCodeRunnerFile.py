@@ -19,18 +19,19 @@ dot.node('q0', 'q0', shape = 'doublecircle')
 dot.node('q2', 'q2', shape = 'circle')
 dot.node('q1', 'q1', shape = 'circle')
 
-dot.edge('q0', 'q1', label='1,4,7')
-dot.edge('q1', 'q0', label='2,5,8')
+dot.edge('q1', 'q0')
+dot.edge('q0', 'q1')
 
-dot.edge('q0', 'q2', label='2,5,8')
-dot.edge('q2', 'q0', label='1,4,7')
+dot.edge('q0', 'q2')
+dot.edge('q2', 'q0')
 
-dot.edge('q1', 'q2', label='2,5,8')
-dot.edge('q2', 'q1', label='1,4,7')
+dot.edge('q1', 'q2')
+dot.edge('q2', 'q1')
 
 dot.edge('q0', 'q0', label='0,3,6,9')
 dot.edge('q1', 'q1', label='0,3,6,9')
 dot.edge('q2', 'q2', label='0,3,6,9')
+
 
 print(dot)
 dot.view()
