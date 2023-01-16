@@ -1,0 +1,72 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="88pt" height="434pt" viewBox="0.00 0.00 88.10 434.13">
+<g id="graph0" class="graph" transform="translate(10.981253097692374,410.9976562520038) scale(0.8705505632961241)" data-name="">
+<polygon fill="white" stroke="none" points="-4,4 -4,-430.13 84.1,-430.13 84.1,4 -4,4"/>
+<!-- db0 -->
+<g id="node1" class="node" pointer-events="visible" data-name="db0">
+
+<ellipse fill="none" stroke="black" cx="24.69" cy="-405.44" rx="20.89" ry="20.89"/>
+<text text-anchor="middle" x="24.69" y="-401.24" font-family="Times,serif" font-size="14.00">q0</text>
+</g>
+<!-- db0&#45;&gt;db0 -->
+<g id="edge5" class="edge" data-name="db0-&gt;db0">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M44.2,-413.96C54.29,-415.27 63.39,-412.43 63.39,-405.44 63.39,-401.29 60.18,-398.6 55.46,-397.38"/>
+<polygon fill="black" stroke="black" points="55.85,-393.89 45.72,-396.98 55.57,-400.89 55.85,-393.89"/>
+<text text-anchor="middle" x="71.74" y="-401.24" font-family="Times,serif" font-size="14.00">a,b</text>
+</g>
+<!-- db1 -->
+<g id="node2" class="node" pointer-events="visible" data-name="db1">
+
+<ellipse fill="none" stroke="black" cx="24.69" cy="-311.25" rx="20.89" ry="20.89"/>
+<text text-anchor="middle" x="24.69" y="-307.05" font-family="Times,serif" font-size="14.00">q1</text>
+</g>
+<!-- db0&#45;&gt;db1 -->
+<g id="edge1" class="edge" data-name="db0-&gt;db1">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M24.69,-384.44C24.69,-372.56 24.69,-357.24 24.69,-343.76"/>
+<polygon fill="black" stroke="black" points="28.19,-344.05 24.69,-334.05 21.19,-344.05 28.19,-344.05"/>
+<text text-anchor="middle" x="28.19" y="-354.15" font-family="Times,serif" font-size="14.00">b</text>
+</g>
+<!-- db2 -->
+<g id="node3" class="node" pointer-events="visible" data-name="db2">
+
+<ellipse fill="none" stroke="black" cx="24.69" cy="-217.07" rx="20.89" ry="20.89"/>
+<text text-anchor="middle" x="24.69" y="-212.87" font-family="Times,serif" font-size="14.00">q2</text>
+</g>
+<!-- db1&#45;&gt;db2 -->
+<g id="edge2" class="edge" data-name="db1-&gt;db2">
+
+<path fill="none" stroke="rgb(255, 0, 0)" d="M24.69,-290.25C24.69,-278.37 24.69,-263.05 24.69,-249.58"/>
+<polygon fill="red" stroke="red" points="28.19,-249.86 24.69,-239.86 21.19,-249.86 28.19,-249.86"/>
+<text text-anchor="middle" x="28.19" y="-259.96" font-family="Times,serif" font-size="14.00">b</text>
+</g>
+<!-- db3 -->
+<g id="node4" class="node" pointer-events="visible" data-name="db3">
+
+<ellipse fill="none" stroke="black" cx="24.69" cy="-122.88" rx="20.89" ry="20.89"/>
+<text text-anchor="middle" x="24.69" y="-118.68" font-family="Times,serif" font-size="14.00">q3</text>
+</g>
+<!-- db2&#45;&gt;db3 -->
+<g id="edge3" class="edge" data-name="db2-&gt;db3">
+
+<path fill="none" stroke="black" d="M24.69,-196.06C24.69,-184.19 24.69,-168.86 24.69,-155.39"/>
+<polygon fill="black" stroke="black" points="28.19,-155.68 24.69,-145.68 21.19,-155.68 28.19,-155.68"/>
+<text text-anchor="middle" x="27.8" y="-165.77" font-family="Times,serif" font-size="14.00">a</text>
+</g>
+<!-- db4 -->
+<g id="node5" class="node" pointer-events="visible" data-name="db4">
+
+<ellipse fill="none" stroke="black" cx="24.69" cy="-24.69" rx="20.86" ry="20.86"/>
+<ellipse fill="none" stroke="black" cx="24.69" cy="-24.69" rx="24.89" ry="24.89"/>
+<text text-anchor="middle" x="24.69" y="-20.49" font-family="Times,serif" font-size="14.00">q4</text>
+</g>
+<!-- db3&#45;&gt;db4 -->
+<g id="edge4" class="edge" data-name="db3-&gt;db4">
+
+<path fill="none" stroke="black" d="M24.69,-101.95C24.69,-90.17 24.69,-74.91 24.69,-61.14"/>
+<polygon fill="black" stroke="black" points="28.19,-61.55 24.69,-51.55 21.19,-61.55 28.19,-61.55"/>
+<text text-anchor="middle" x="27.8" y="-71.59" font-family="Times,serif" font-size="14.00">a</text>
+</g>
+</g>
+</svg>
